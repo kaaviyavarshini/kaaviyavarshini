@@ -12,7 +12,6 @@ on:
       - "assets/projects.json"
       - "scripts/radar.py"
       - "scripts/cards.py"
-      - "scripts/banner/generate.py"
       - ".github/workflows/radar.yml"
 
 permissions:
