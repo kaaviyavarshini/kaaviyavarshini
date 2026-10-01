@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="520" viewBox="0 0 360 520" role="img" aria-label="Microplastic Detection">
+  <defs>
+    <filter id="shadow-microplastics" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+
+    <linearGradient id="sheen-microplastics" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      @keyframes floatCard {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes sweepSheen {
+        0% { transform: translateX(-150%) translateY(-150%); }
+        40%, 100% { transform: translateX(150%) translateY(150%); }
+      }
+      .floating-card {
+        animation: floatCard 5s ease-in-out infinite;
+      }
+      .sheen-layer {
+        animation: sweepSheen 4.5s ease-in-out infinite;
+      }
+      text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      }
+    </style>
+  </defs>
+
+  <g class="floating-card">
+    <a xlink:href="https://github.com/kaaviyavarshini/Microplastics-Detection-in-Water-System" target="_blank">
+      <!-- Background Card -->
+      <rect x="10" y="10" width="340" height="500" rx="18" fill="#E6392B" stroke="#FFA39E" stroke-width="2" filter="url(#shadow-microplastics)" />
+      
+      <!-- Inner Frame -->
+      <rect x="20" y="20" width="320" height="480" rx="12" fill="none" stroke="#FFA39E" stroke-width="1" opacity="0.35" />
+
+      <!-- Top Metadata Header -->
+      <text x="35" y="48" font-size="12" font-weight="900" fill="#FFFFFF" class="mono">[ 02 // 03 ]</text>
+      <rect x="220" y="34" width="105" height="20" rx="10" fill="#000000" opacity="0.35" />
+      <text x="272" y="48" font-size="10" font-weight="800" text-anchor="middle" fill="#FFFFFF" class="mono">97.4% ACCURACY</text>
+
+      <!-- Center Project Emblem / Artwork -->
+      <g transform="translate(180, 135)">
+        <circle cx="0" cy="0" r="54" fill="#050B14" stroke="#FFA39E" stroke-width="1.5" />
+        <g><rect x="-36" y="-28" width="72" height="56" rx="20" fill="#000000" /><path d="M -26 0 Q 0 -18 26 0 Q 0 18 -26 0 Z" fill="#E6392B" stroke="#000000" stroke-width="3" /><circle cx="0" cy="0" r="8" fill="#000000" /><circle cx="2" cy="-2" r="2.5" fill="#FFFFFF" /></g>
+      </g>
+
+      <!-- Project Name -->
+      <text x="35" y="230" font-size="20" font-weight="900" fill="#FFFFFF" letter-spacing="-0.5">Microplastic Detection</text>
+      <text x="35" y="250" font-size="11" font-weight="800" fill="#FFFFFF" class="mono">REAL-TIME CV &amp; DEEP LEARNING PIPELINE</text>
+
+      <!-- Description -->
+      <text x="35" y="280" font-size="12" fill="#FFE4E1">
+        <tspan x="35" dy="0">Computer vision pipeline detecting</tspan><tspan x="35" dy="18">microplastics in water samples with 97.4%</tspan><tspan x="35" dy="18">CNN confidence, microscope feed analysis &amp;</tspan>
+      </text>
+
+      <!-- Tech Stack Badges -->
+      <g transform="translate(35, 350)">
+        
+        <rect x="0" y="0" width="90" height="20" rx="4" fill="#000000" opacity="0.4" stroke="#FFFFFF" stroke-width="1" />
+        <text x="45" y="14" font-size="9.5" font-weight="700" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, monospace">Python</text>
+        
+        <rect x="96" y="0" width="90" height="20" rx="4" fill="#000000" opacity="0.4" stroke="#FFFFFF" stroke-width="1" />
+        <text x="141" y="14" font-size="9.5" font-weight="700" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, monospace">TensorFlow</text>
+        
+        <rect x="192" y="0" width="90" height="20" rx="4" fill="#000000" opacity="0.4" stroke="#FFFFFF" stroke-width="1" />
+        <text x="237" y="14" font-size="9.5" font-weight="700" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, monospace">OpenCV</text>
+        
+        <rect x="0" y="26" width="90" height="20" rx="4" fill="#000000" opacity="0.4" stroke="#FFFFFF" stroke-width="1" />
+        <text x="45" y="40" font-size="9.5" font-weight="700" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, monospace">Keras</text>
+        
+        <rect x="96" y="26" width="90" height="20" rx="4" fill="#000000" opacity="0.4" stroke="#FFFFFF" stroke-width="1" />
+        <text x="141" y="40" font-size="9.5" font-weight="700" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, monospace">NumPy</text>
+        
+        <rect x="192" y="26" width="90" height="20" rx="4" fill="#000000" opacity="0.4" stroke="#FFFFFF" stroke-width="1" />
+        <text x="237" y="40" font-size="9.5" font-weight="700" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, monospace">Streamlit</text>
+        
+      </g>
+
+      <!-- Direct Repo Link Button -->
+      <g transform="translate(35, 435)">
+        <rect x="0" y="0" width="290" height="38" rx="8" fill="#000000" opacity="0.45" stroke="#FFA39E" stroke-width="1.2" />
+        <text x="145" y="24" font-size="12" font-weight="800" text-anchor="middle" fill="#FFFFFF" class="mono">VIEW ON GITHUB ↗</text>
+      </g>
+
+      <!-- Shimmer sweep -->
+      <rect x="10" y="10" width="340" height="500" rx="18" fill="url(#sheen-microplastics)" class="sheen-layer" pointer-events="none" />
+    </a>
+  </g>
+</svg>
