@@ -51,46 +51,34 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
-![C](https://img.shields.io/badge/C-0d1117?style=flat-square&logo=c&logoColor=aa9bef)
-![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=aa9bef)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=aa9bef)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=aa9bef)
-![HTML](https://img.shields.io/badge/HTML-0d1117?style=flat-square&logo=html5&logoColor=aa9bef)
-![CSS](https://img.shields.io/badge/CSS-0d1117?style=flat-square&logo=css3&logoColor=aa9bef)
-![SQL](https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=mysql&logoColor=aa9bef)
+<img src="https://skillicons.dev/icons?i=py,c,java,js,ts,html,css,mysql&perline=8" alt="Languages">
 
 **Frontend & Mobile**
 
-![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=aa9bef)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=aa9bef)
-![Astro](https://img.shields.io/badge/Astro-0d1117?style=flat-square&logo=astro&logoColor=aa9bef)
+<img src="https://skillicons.dev/icons?i=react,nextjs,astro,expo,bootstrap,figma&perline=8" alt="Frontend and Mobile">
+
 ![React Native](https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=aa9bef)
-![Expo](https://img.shields.io/badge/Expo-0d1117?style=flat-square&logo=expo&logoColor=aa9bef)
 ![Leaflet](https://img.shields.io/badge/Leaflet-0d1117?style=flat-square&logo=leaflet&logoColor=aa9bef)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-0d1117?style=flat-square&logo=bootstrap&logoColor=aa9bef)
-![Figma](https://img.shields.io/badge/Figma-0d1117?style=flat-square&logo=figma&logoColor=aa9bef)
 
 **Backend & APIs**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=aa9bef)
-![Flask](https://img.shields.io/badge/Flask-0d1117?style=flat-square&logo=flask&logoColor=aa9bef)
+<img src="https://skillicons.dev/icons?i=fastapi,flask&perline=8" alt="Backend">
+
 ![Streamlit](https://img.shields.io/badge/Streamlit-0d1117?style=flat-square&logo=streamlit&logoColor=aa9bef)
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
 ![Chainlit](https://img.shields.io/badge/Chainlit-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
-![Pydantic](https://img.shields.io/badge/Pydantic-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
+![Pydantic](https://img.shields.io/badge/Pydantic-0d1117?style=flat-square&logo=pydantic&logoColor=aa9bef)
 ![SSE](https://img.shields.io/badge/Server--Sent_Events-0d1117?style=flat-square&logo=html5&logoColor=aa9bef)
 ![YouTube API](https://img.shields.io/badge/YouTube_Data_API-0d1117?style=flat-square&logo=youtube&logoColor=aa9bef)
 ![Instagram API](https://img.shields.io/badge/Instagram_API-0d1117?style=flat-square&logo=instagram&logoColor=aa9bef)
 
 **AI · ML · Algorithms**
 
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&perline=8" alt="AI and ML">
+
 ![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=flat-square&logo=numpy&logoColor=aa9bef)
 ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=flat-square&logo=pandas&logoColor=aa9bef)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=aa9bef)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0d1117?style=flat-square&logo=tensorflow&logoColor=aa9bef)
-![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=flat-square&logo=pytorch&logoColor=aa9bef)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-0d1117?style=flat-square&logo=huggingface&logoColor=aa9bef)
 ![ONNX](https://img.shields.io/badge/ONNX_Runtime-0d1117?style=flat-square&logo=onnx&logoColor=aa9bef)
 ![PuLP](https://img.shields.io/badge/PuLP-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
@@ -102,33 +90,32 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 **LLMs**
 
 ![Gemini](https://img.shields.io/badge/Gemini-0d1117?style=flat-square&logo=google&logoColor=aa9bef)
-![Claude](https://img.shields.io/badge/Claude_(AWS_Bedrock)-0d1117?style=flat-square&logo=anthropic&logoColor=aa9bef)
+![Claude Opus 4.6](https://img.shields.io/badge/Claude_Opus_4.6_(Bedrock)-0d1117?style=flat-square&logo=anthropic&logoColor=aa9bef)
+![Claude Sonnet 4.6](https://img.shields.io/badge/Claude_Sonnet_4.6_(Bedrock)-0d1117?style=flat-square&logo=anthropic&logoColor=aa9bef)
 ![Llama 2](https://img.shields.io/badge/Llama_2-0d1117?style=flat-square&logo=meta&logoColor=aa9bef)
-![Gemma](https://img.shields.io/badge/Gemma--3-0d1117?style=flat-square&logo=google&logoColor=aa9bef)
+![Gemma-3](https://img.shields.io/badge/Gemma--3-0d1117?style=flat-square&logo=google&logoColor=aa9bef)
 ![GPT](https://img.shields.io/badge/GPT-0d1117?style=flat-square&logo=openai&logoColor=aa9bef)
 
 **Data**
 
-![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=flat-square&logo=mysql&logoColor=aa9bef)
-![SQLite](https://img.shields.io/badge/SQLite-0d1117?style=flat-square&logo=sqlite&logoColor=aa9bef)
+<img src="https://skillicons.dev/icons?i=mysql,sqlite,postgres,redis&perline=8" alt="Data">
+
 ![Pinecone](https://img.shields.io/badge/Pinecone-0d1117?style=flat-square&logo=pinecone&logoColor=aa9bef)
-![MaxMind](https://img.shields.io/badge/MaxMind_GeoLite2-0d1117?style=flat-square&logo=maxmind&logoColor=aa9bef)
+![MaxMind GeoLite2](https://img.shields.io/badge/MaxMind_GeoLite2-0d1117?style=flat-square&logo=maxmind&logoColor=aa9bef)
 ![GTFS](https://img.shields.io/badge/GTFS_Route_Data-0d1117?style=flat-square&logo=googlemaps&logoColor=aa9bef)
 
 **Messaging & Real-Time**
 
-![MQTT](https://img.shields.io/badge/MQTT_(Paho)-0d1117?style=flat-square&logo=eclipsemosquitto&logoColor=aa9bef)
-![Mosquitto](https://img.shields.io/badge/Eclipse_Mosquitto-0d1117?style=flat-square&logo=eclipsemosquitto&logoColor=aa9bef)
+![MQTT](https://img.shields.io/badge/MQTT_(Paho)-0d1117?style=flat-square&logo=mqtt&logoColor=aa9bef)
+![Eclipse Mosquitto](https://img.shields.io/badge/Eclipse_Mosquitto-0d1117?style=flat-square&logo=eclipsemosquitto&logoColor=aa9bef)
 
 **Cloud & DevOps**
 
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=aa9bef)
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,aws,githubactions&perline=8" alt="Cloud and DevOps">
+
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-0d1117?style=flat-square&logo=docker&logoColor=aa9bef)
 ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=aa9bef)
 ![CloudFront](https://img.shields.io/badge/CloudFront-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef)
-![Nginx](https://img.shields.io/badge/Nginx-0d1117?style=flat-square&logo=nginx&logoColor=aa9bef)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=flat-square&logo=kubernetes&logoColor=aa9bef)
 
 **Voice & Media**
 
@@ -137,10 +124,8 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 
 **Tools & Practices**
 
-![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=aa9bef)
-![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=aa9bef)
-![VS Code](https://img.shields.io/badge/VS_Code-0d1117?style=flat-square&logo=visualstudiocode&logoColor=aa9bef)
-![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=flat-square&logo=jupyter&logoColor=aa9bef)
+<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,postman&perline=8" alt="Tools">
+
 ![Conventional Commits](https://img.shields.io/badge/Conventional_Commits-0d1117?style=flat-square&logo=conventionalcommits&logoColor=aa9bef)
 ![Mermaid](https://img.shields.io/badge/Mermaid_Diagrams-0d1117?style=flat-square&logo=mermaid&logoColor=aa9bef)
 ![PostHog](https://img.shields.io/badge/PostHog-0d1117?style=flat-square&logo=posthog&logoColor=aa9bef)
