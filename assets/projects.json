@@ -1,0 +1,17 @@
+{
+  "_comment": "Featured repos, in README order.",
+  "projects": [
+    {
+      "repo": "GigShield",
+      "description": "Parametric weather & outage insurance platform with instant automated UPI payouts for delivery workers."
+    },
+    {
+      "repo": "microgrid_simulation",
+      "description": "Autonomous energy orchestration engine eliminating power gaps in hospital microgrids using PuLP optimization."
+    },
+    {
+      "repo": "Microplastics-Detection-in-Water-System",
+      "description": "Computer vision and deep learning pipeline for real-time microplastics detection and water quality monitoring."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated, 0-100. Edit these and the Charts workflow redraws the radar.",
+  "axes": [
+    { "label": "Multi-Agent AI",      "value": 95 },
+    { "label": "LLM Orchestration",   "value": 92 },
+    { "label": "RAG Architectures",    "value": 90 },
+    { "label": "Autonomous Systems",   "value": 88 },
+    { "label": "Cyber AI & Forensics", "value": 85 },
+    { "label": "Full-Stack (Next/Py)", "value": 86 },
+    { "label": "Cloud & MLOps",        "value": 82 }
+  ]
+}
