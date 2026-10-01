@@ -1,0 +1,117 @@
+<svg viewBox="0 0 850 320" width="850" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="signalsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#0d1527" />
+    </linearGradient>
+    <linearGradient id="polyGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="polyGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="radarGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .radar-title { font-size: 11px; fill: #94a3b8; font-weight: 700; letter-spacing: 1px; }
+    .axis-label { font-size: 8.5px; fill: #94a3b8; font-weight: 500; }
+    .axis-label-highlight { font-size: 8.5px; fill: #38bdf8; font-weight: 600; }
+    .card-border { stroke: #1e293b; stroke-width: 1.2; fill: url(#signalsBg); }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="316" rx="10" class="card-border" />
+
+  <!-- ================= LEFT RADAR: DOMAIN CAPABILITIES ================= -->
+  <g transform="translate(225, 160)">
+    <!-- Radar Title -->
+    <text class="mono radar-title" x="0" y="-130" text-anchor="middle">DOMAINS &amp; ARCHITECTURES</text>
+
+    <!-- Concentric Hexagons -->
+    <!-- Level 4 (100px) -->
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="2 2" />
+    <!-- Level 3 (75px) -->
+    <polygon points="0,-75 65,-37.5 65,37.5 0,75 -65,37.5 -65,-37.5" fill="none" stroke="#1e3a5f" stroke-width="1" />
+    <!-- Level 2 (50px) -->
+    <polygon points="0,-50 43.3,-25 43.3,25 0,50 -43.3,25 -43.3,-25" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="2 2" />
+    <!-- Level 1 (25px) -->
+    <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="none" stroke="#1e3a5f" stroke-width="1" />
+
+    <!-- Axes -->
+    <line x1="0" y1="0" x2="0" y2="-100" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="86.6" y2="-50" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="86.6" y2="50" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="0" y2="100" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="-86.6" y2="50" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="-86.6" y2="-50" stroke="#334155" stroke-width="1" />
+
+    <!-- Data Polygon (Agentic AI=95%, GenAI/RAG=92%, Deterministic Safety=88%, Threat Intel=90%, ML/TFT=85%, Cloud Deploy=82%) -->
+    <!-- 0,-95 | 79.7,-46 | 76.2,44 | 0,90 | -73.6,42.5 | -71,-41 -->
+    <polygon points="0,-95 79.7,-46 76.2,44 0,90 -73.6,42.5 -71,-41" fill="url(#polyGrad1)" stroke="#38bdf8" stroke-width="1.8" filter="url(#radarGlow)" />
+    
+    <!-- Data Dots -->
+    <circle cx="0" cy="-95" r="3" fill="#38bdf8" />
+    <circle cx="79.7" cy="-46" r="3" fill="#38bdf8" />
+    <circle cx="76.2" cy="44" r="3" fill="#38bdf8" />
+    <circle cx="0" cy="90" r="3" fill="#38bdf8" />
+    <circle cx="-73.6" cy="42.5" r="3" fill="#38bdf8" />
+    <circle cx="-71" cy="-41" r="3" fill="#38bdf8" />
+
+    <!-- Labels -->
+    <text class="mono axis-label-highlight" x="0" y="-110" text-anchor="middle">Agentic AI &amp; Multi-Agent</text>
+    <text class="mono axis-label" x="98" y="-52" text-anchor="start">RAG &amp; Vector DBs</text>
+    <text class="mono axis-label" x="98" y="55" text-anchor="start">Cyber &amp; Threat Forensics</text>
+    <text class="mono axis-label-highlight" x="0" y="116" text-anchor="middle">Deterministic Safety Engines</text>
+    <text class="mono axis-label" x="-98" y="55" text-anchor="end">Time-Series &amp; Forecasting</text>
+    <text class="mono axis-label" x="-98" y="-52" text-anchor="end">Cloud &amp; Orchestration</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="425" y1="20" x2="425" y2="300" stroke="#1e293b" stroke-dasharray="4 4" />
+
+  <!-- ================= RIGHT RADAR: TECH STACK MATRIX ================= -->
+  <g transform="translate(625, 160)">
+    <!-- Radar Title -->
+    <text class="mono radar-title" x="0" y="-130" text-anchor="middle">CORE TECH STACK PROFICIENCY</text>
+
+    <!-- Concentric Hexagons -->
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="2 2" />
+    <polygon points="0,-75 65,-37.5 65,37.5 0,75 -65,37.5 -65,-37.5" fill="none" stroke="#1e3a5f" stroke-width="1" />
+    <polygon points="0,-50 43.3,-25 43.3,25 0,50 -43.3,25 -43.3,-25" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="2 2" />
+    <polygon points="0,-25 21.6,-12.5 21.6,12.5 0,25 -21.6,12.5 -21.6,-12.5" fill="none" stroke="#1e3a5f" stroke-width="1" />
+
+    <!-- Axes -->
+    <line x1="0" y1="0" x2="0" y2="-100" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="86.6" y2="-50" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="86.6" y2="50" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="0" y2="100" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="-86.6" y2="50" stroke="#334155" stroke-width="1" />
+    <line x1="0" y1="0" x2="-86.6" y2="-50" stroke="#334155" stroke-width="1" />
+
+    <!-- Data Polygon (Python=96%, LangGraph/LangChain=94%, FastAPI/Next.js=90%, Docker/K8s=84%, Pinecone/Postgres=88%, Scikit/NumPy=92%) -->
+    <polygon points="0,-96 81.4,-47 78,45 0,84 -76.2,44 -79.7,-46" fill="url(#polyGrad2)" stroke="#34d399" stroke-width="1.8" filter="url(#radarGlow)" />
+
+    <!-- Data Dots -->
+    <circle cx="0" cy="-96" r="3" fill="#34d399" />
+    <circle cx="81.4" cy="-47" r="3" fill="#34d399" />
+    <circle cx="78" cy="45" r="3" fill="#34d399" />
+    <circle cx="0" cy="84" r="3" fill="#34d399" />
+    <circle cx="-76.2" cy="44" r="3" fill="#34d399" />
+    <circle cx="-79.7" cy="-46" r="3" fill="#34d399" />
+
+    <!-- Labels -->
+    <text class="mono axis-label-highlight" x="0" y="-110" text-anchor="middle" fill="#34d399">Python &amp; AI Frameworks</text>
+    <text class="mono axis-label" x="98" y="-52" text-anchor="start">LangGraph &amp; LangChain</text>
+    <text class="mono axis-label" x="98" y="55" text-anchor="start">FastAPI &amp; Next.js 16</text>
+    <text class="mono axis-label-highlight" x="0" y="116" text-anchor="middle" fill="#34d399">Docker, K8s &amp; Nginx</text>
+    <text class="mono axis-label" x="-98" y="55" text-anchor="end">Pinecone &amp; PostgreSQL</text>
+    <text class="mono axis-label" x="-98" y="-52" text-anchor="end">Scikit-Learn &amp; NumPy</text>
+  </g>
+</svg>
