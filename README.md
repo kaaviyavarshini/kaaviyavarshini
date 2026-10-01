@@ -37,7 +37,7 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 
 - 🎓 **SRM Institute of Science and Technology** — B.Tech CSE with AI Specialization (**CGPA: 9.88**).
 - 🤖 **Multi-Agent Systems Architect** — Built **[Nexus Solo](https://github.com/kaaviyavarshini)**, replacing a 10-person agency with 5 autonomous AI agents (*Content, Trend, Crisis, Deal, Analytics*) using *Creator DNA* ML profiling across 10 Indian languages.
-- 🛡️ **Autonomous Cyber Defense & Safety Systems** — Built **[Sentinel](https://github.com/kaaviyavarshini)** (self-hosted AI threat forensics with Gemma-3 and DBSCAN) and deterministic zero-blackout hospital controllers (**[MicroGrid Simulator](https://github.com/kaaviyavarshini/microgrid_simulation)**).
+- 🛡️ **Autonomous Cyber Defense & Safety Systems** — Built **[Sentinel](https://github.com/kaaviyavarshini)** (self-hosted AI threat forensics with Gemma-3 and DBSCAN) and deterministic zero-blackout hospital controllers (**[MicroGrid Simulator](https://github.com/kaaviyavarshini/microgrid_simulation)**). Running Claude Opus 4.6 & Sonnet 4.6 via AWS Bedrock.
 - 🔍 **Clinical & Enterprise GenAI** — Developed production RAG pipelines (**End-to-End Medical Chatbot** with LLaMA 2 & Pinecone) and natural language analytics (**Text-to-SQL Gemini App**).
 - 🏆 **National Recognition** — **AWS AI For Bharat** (*Qualified for Prototype Round, 30+ states*), **Microsoft Imagine Cup '25**, and **Smart India Hackathon (SIH '25)**.
 - 🌱 **My mission:** Building high-precision, resilient AI applications that solve critical real-world infrastructure, security, and automation challenges.
@@ -55,9 +55,11 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 
 **Frontend & Mobile**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,astro,expo,bootstrap,figma&perline=8" alt="Frontend and Mobile">
+<img src="https://skillicons.dev/icons?i=react,nextjs,astro,bootstrap,figma&perline=8" alt="Frontend and Mobile">
 
 ![React Native](https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=aa9bef)
+![Expo](https://img.shields.io/badge/Expo-0d1117?style=flat-square&logo=expo&logoColor=aa9bef)
+
 ![Leaflet](https://img.shields.io/badge/Leaflet-0d1117?style=flat-square&logo=leaflet&logoColor=aa9bef)
 
 **Backend & APIs**
@@ -75,8 +77,9 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 
 **AI · ML · Algorithms**
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&perline=8" alt="AI and ML">
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&perline=8" alt="AI and ML">
 
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=aa9bef)
 ![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=flat-square&logo=numpy&logoColor=aa9bef)
 ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=flat-square&logo=pandas&logoColor=aa9bef)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-0d1117?style=flat-square&logo=huggingface&logoColor=aa9bef)
@@ -87,14 +90,6 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
 ![Kalman Filter](https://img.shields.io/badge/Kalman_Filter_Fusion-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
 
-**LLMs**
-
-![Gemini](https://img.shields.io/badge/Gemini-0d1117?style=flat-square&logo=google&logoColor=aa9bef)
-![Claude Opus 4.6](https://img.shields.io/badge/Claude_Opus_4.6_(Bedrock)-0d1117?style=flat-square&logo=anthropic&logoColor=aa9bef)
-![Claude Sonnet 4.6](https://img.shields.io/badge/Claude_Sonnet_4.6_(Bedrock)-0d1117?style=flat-square&logo=anthropic&logoColor=aa9bef)
-![Llama 2](https://img.shields.io/badge/Llama_2-0d1117?style=flat-square&logo=meta&logoColor=aa9bef)
-![Gemma-3](https://img.shields.io/badge/Gemma--3-0d1117?style=flat-square&logo=google&logoColor=aa9bef)
-![GPT](https://img.shields.io/badge/GPT-0d1117?style=flat-square&logo=openai&logoColor=aa9bef)
 
 **Data**
 
@@ -124,7 +119,9 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 
 **Tools & Practices**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,postman&perline=8" alt="Tools">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman&perline=8" alt="Tools">
+
+![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=flat-square&logo=jupyter&logoColor=aa9bef)
 
 ![Conventional Commits](https://img.shields.io/badge/Conventional_Commits-0d1117?style=flat-square&logo=conventionalcommits&logoColor=aa9bef)
 ![Mermaid](https://img.shields.io/badge/Mermaid_Diagrams-0d1117?style=flat-square&logo=mermaid&logoColor=aa9bef)
