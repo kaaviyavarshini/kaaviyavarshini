@@ -302,13 +302,6 @@ def render_svg(
         f'<rect x="35" y="88" width="418" height="472" rx="6" fill="{t["panel2"]}" '
         f'stroke="{t["line"]}"/>',
         f'<path d="M35 124H453" stroke="{t["line"]}"/>',
-        f'<text x="49" y="111" fill="{t["chrome"]}" '
-        'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-        'font-weight="700" letter-spacing="1.2">VISUAL.MAP</text>',
-        f'<text x="438" y="111" text-anchor="end" fill="{t["muted"]}" '
-        'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">300×340 / 1-BIT</text>',
-        f'<path d="M49 141h12M49 141v12M439 141h-12M439 141v12M49 539h12M49 539v-12'
-        f'M439 539h-12M439 539v-12" fill="none" stroke="{t["chrome"]}" opacity=".55"/>',
         '<g clip-path="url(#visualClip)" shape-rendering="crispEdges">',
         # Loop layer stays visible at t=0 so first frames show the portrait.
         '<g opacity="1">',
@@ -371,10 +364,6 @@ def render_svg(
     parts.extend(
         [
             "</g>",
-            # Small frame telemetry.
-            f'<text x="58" y="551" fill="{t["muted"]}" '
-            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10">'
-            f'PTS {len(portrait):05d} · FS/SERPENTINE</text>',
             # Right information panel.
             f'<rect x="474" y="88" width="672" height="472" rx="6" fill="{t["panel2"]}" '
             f'stroke="{t["line"]}"/>',
