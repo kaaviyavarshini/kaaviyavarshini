@@ -262,14 +262,14 @@ def render_svg(
     source = portrait[rng.choice(len(portrait), n, replace=False)]
     rust = transport(source, logo_points["rust"][:n])
     code = transport(rust, logo_points["code"][:n])
-    stellar = transport(code, logo_points["stellar"][:n])
 
-    # Explicit uneven phase boundaries: 3.0 portrait, 2.0 per logo,
-    # and four 1.3 transitions = 14.2 seconds.
-    times = [0, 3.0, 4.3, 6.3, 7.6, 9.6, 10.9, 12.9, 14.2]
-    key_times = ";".join(num(v / LOOP_SECONDS) for v in times)
-    frames = [source, source, rust, rust, code, code, stellar, stellar, source]
-    opacity_values = "0;0;1;1;1;1;1;1;0"
+    # Animation timing: portrait (3.5s), rust (2.0s), code (2.0s), transitions (1.3s each) = 10.9s
+    # Note: stellar symbol from user request is removed from the morph sequence.
+    loop_sec = 10.9
+    times = [0, 3.5, 4.8, 6.8, 8.1, 9.6, 10.9]
+    key_times = ";".join(num(v / loop_sec) for v in times)
+    frames = [source, source, rust, rust, code, code, source]
+    opacity_values = "0;0;1;1;1;1;0"
 
     parts: list[str] = [
         '<svg xmlns="http://www.w3.org/2000/svg" '
@@ -302,6 +302,13 @@ def render_svg(
         f'<rect x="35" y="88" width="418" height="472" rx="6" fill="{t["panel2"]}" '
         f'stroke="{t["line"]}"/>',
         f'<path d="M35 124H453" stroke="{t["line"]}"/>',
+        f'<text x="49" y="111" fill="{t["chrome"]}" '
+        'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
+        'font-weight="700" letter-spacing="1.2">VISUAL.MAP</text>',
+        f'<text x="438" y="111" text-anchor="end" fill="{t["muted"]}" '
+        'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">300×340 / 1-BIT</text>',
+        f'<path d="M49 141h12M49 141v12M439 141h-12M439 141v12M49 539h12M49 539v-12'
+        f'M439 539h-12M439 539v-12" fill="none" stroke="{t["chrome"]}" opacity=".55"/>',
         '<g clip-path="url(#visualClip)" shape-rendering="crispEdges">',
         # Loop layer stays visible at t=0 so first frames show the portrait.
         '<g opacity="1">',
@@ -322,12 +329,12 @@ def render_svg(
             f'<path d="{d}" fill="none" stroke="{t["portrait"]}" stroke-width="1" '
             'opacity=".94">'
             f'<animateTransform attributeName="transform" type="translate" begin="{INTRO_SECONDS}s" '
-            f'dur="{LOOP_SECONDS}s" repeatCount="indefinite" calcMode="linear" '
+            f'dur="{loop_sec}s" repeatCount="indefinite" calcMode="linear" '
             f'keyTimes="{key_times}" values="0 0;0 0;{num(delta[0])} {num(delta[1])};'
-            f'{num(delta[0])} {num(delta[1])};0 0;0 0;0 0;0 0;0 0"/>'
-            f'<animate attributeName="opacity" begin="{INTRO_SECONDS}s" dur="{LOOP_SECONDS}s" '
+            f'{num(delta[0])} {num(delta[1])};0 0;0 0;0 0"/>'
+            f'<animate attributeName="opacity" begin="{INTRO_SECONDS}s" dur="{loop_sec}s" '
             f'repeatCount="indefinite" keyTimes="{key_times}" '
-            'values=".94;.94;0;0;0;0;0;0;.94"/></path>'
+            'values=".94;.94;0;0;0;0;.94"/></path>'
         )
 
     # Optimal-transport travellers, represented as tiny path squares.
@@ -336,9 +343,9 @@ def render_svg(
         parts.append(
             f'<path d="M-.65-.65h1.3v1.3h-1.3z" fill="{t["portrait"]}">'
             f'<animateTransform attributeName="transform" type="translate" begin="{INTRO_SECONDS}s" '
-            f'dur="{LOOP_SECONDS}s" repeatCount="indefinite" calcMode="linear" '
+            f'dur="{loop_sec}s" repeatCount="indefinite" calcMode="linear" '
             f'keyTimes="{key_times}" values="{positions}"/>'
-            f'<animate attributeName="opacity" begin="{INTRO_SECONDS}s" dur="{LOOP_SECONDS}s" '
+            f'<animate attributeName="opacity" begin="{INTRO_SECONDS}s" dur="{loop_sec}s" '
             f'repeatCount="indefinite" calcMode="linear" keyTimes="{key_times}" '
             f'values="{opacity_values}"/></path>'
         )
@@ -364,6 +371,9 @@ def render_svg(
     parts.extend(
         [
             "</g>",
+            f'<text x="58" y="551" fill="{t["muted"]}" '
+            'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10">'
+            f'PTS {len(portrait):05d} · FS/SERPENTINE</text>',
             # Right information panel.
             f'<rect x="474" y="88" width="672" height="472" rx="6" fill="{t["panel2"]}" '
             f'stroke="{t["line"]}"/>',
