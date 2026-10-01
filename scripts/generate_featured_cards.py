@@ -517,136 +517,11 @@ def make_showcase_svg(is_dark=True):
 </svg>"""
     return svg
 
-def make_individual_card_svg(p, is_dark=True):
-    bg_card = "#0D1527" if is_dark else "#FFFFFF"
-    border_color = p["theme_color"]
-    text_primary = "#F8FAFC" if is_dark else "#0F172A"
-    text_secondary = p["theme_color"]
-    text_desc = "#94A3B8" if is_dark else "#475569"
-
-    # Specific color for center card if microplastics
-    if p["id"] == "microplastics":
-        bg_card = "#E6392B"
-        text_primary = "#FFFFFF"
-        text_secondary = "#FFFFFF"
-        text_desc = "#FFE4E1"
-        border_color = "#FFA39E"
-
-    tech_pills = ""
-    for i, t in enumerate(p["tech"][:6]):
-        col = i % 3
-        row = i // 3
-        x = col * 96
-        y = row * 26
-        pill_bg = "#000000" if p["id"] == "microplastics" else "#0F172A"
-        pill_stroke = "#FFFFFF" if p["id"] == "microplastics" else "#334155"
-        pill_text = "#FFFFFF" if p["id"] == "microplastics" else "#E2E8F0"
-        opacity = "0.4" if p["id"] == "microplastics" else "1"
-        tech_pills += f"""
-        <rect x="{x}" y="{y}" width="90" height="20" rx="4" fill="{pill_bg}" opacity="{opacity}" stroke="{pill_stroke}" stroke-width="1" />
-        <text x="{x + 45}" y="{y + 14}" font-size="9.5" font-weight="700" text-anchor="middle" fill="{pill_text}" font-family="ui-monospace, monospace">{esc(t)}</text>
-        """
-
-    desc_lines = wrap_words(p['description'], 42)
-    desc_tspans = "".join([f'<tspan x="35" dy="{18 if i>0 else 0}">{esc(line)}</tspan>' for i, line in enumerate(desc_lines[:3])])
-
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="520" viewBox="0 0 360 520" role="img" aria-label="{esc(p['title'])}">
-  <defs>
-    <filter id="shadow-{p['id']}" x="-20%" y="-20%" width="140%" height="150%">
-      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.45" />
-    </filter>
-
-    <linearGradient id="sheen-{p['id']}" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="45%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.25" />
-      <stop offset="55%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
-    </linearGradient>
-
-    <style>
-      @keyframes floatCard {{
-        0%, 100% {{ transform: translateY(0px); }}
-        50% {{ transform: translateY(-8px); }}
-      }}
-      @keyframes sweepSheen {{
-        0% {{ transform: translateX(-150%) translateY(-150%); }}
-        40%, 100% {{ transform: translateX(150%) translateY(150%); }}
-      }}
-      .floating-card {{
-        animation: floatCard 5s ease-in-out infinite;
-      }}
-      .sheen-layer {{
-        animation: sweepSheen 4.5s ease-in-out infinite;
-      }}
-      text {{
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      }}
-      .mono {{
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-      }}
-    </style>
-  </defs>
-
-  <g class="floating-card">
-    <a xlink:href="{esc(p['repo_url'])}" target="_blank">
-      <!-- Background Card -->
-      <rect x="10" y="10" width="340" height="500" rx="18" fill="{bg_card}" stroke="{border_color}" stroke-width="2" filter="url(#shadow-{p['id']})" />
-      
-      <!-- Inner Frame -->
-      <rect x="20" y="20" width="320" height="480" rx="12" fill="none" stroke="{border_color}" stroke-width="1" opacity="0.35" />
-
-      <!-- Top Metadata Header -->
-      <text x="35" y="48" font-size="12" font-weight="900" fill="{text_secondary}" class="mono">[ {p['index']} // {p['total']} ]</text>
-      <rect x="220" y="34" width="105" height="20" rx="10" fill="{ '#000000' if p['id'] == 'microplastics' else p['theme_color'] }" opacity="{ '0.35' if p['id'] == 'microplastics' else '0.2' }" />
-      <text x="272" y="48" font-size="10" font-weight="800" text-anchor="middle" fill="{text_secondary}" class="mono">{p['badge']}</text>
-
-      <!-- Center Project Emblem / Artwork -->
-      <g transform="translate(180, 135)">
-        <circle cx="0" cy="0" r="54" fill="#050B14" stroke="{border_color}" stroke-width="1.5" />
-        {
-          '<g><rect x="-36" y="-28" width="72" height="56" rx="20" fill="#000000" /><path d="M -26 0 Q 0 -18 26 0 Q 0 18 -26 0 Z" fill="#E6392B" stroke="#000000" stroke-width="3" /><circle cx="0" cy="0" r="8" fill="#000000" /><circle cx="2" cy="-2" r="2.5" fill="#FFFFFF" /></g>'
-          if p['icon_type'] == 'eye'
-          else (
-            '<g><circle cx="0" cy="0" r="32" fill="#0284C7" opacity="0.8" /><ellipse cx="0" cy="0" rx="38" ry="14" fill="none" stroke="#38BDF8" stroke-width="2" transform="rotate(-30)" /><circle cx="0" cy="0" r="8" fill="#FFFFFF" /></g>'
-            if p['icon_type'] == 'portal'
-            else '<g><text x="0" y="8" font-size="24" font-weight="900" text-anchor="middle" fill="#F8FAFC" font-family="monospace">1:1</text><ellipse cx="0" cy="0" rx="36" ry="12" fill="none" stroke="#A78BFA" stroke-width="1.5" transform="rotate(25)" /></g>'
-          )
-        }
-      </g>
-
-      <!-- Project Name -->
-      <text x="35" y="230" font-size="20" font-weight="900" fill="{text_primary}" letter-spacing="-0.5">{esc(p['title'])}</text>
-      <text x="35" y="250" font-size="11" font-weight="800" fill="{text_secondary}" class="mono">{esc(p['subtitle'].upper())}</text>
-
-      <!-- Description -->
-      <text x="35" y="280" font-size="12" fill="{text_desc}">
-        {desc_tspans}
-      </text>
-
-      <!-- Tech Stack Badges -->
-      <g transform="translate(35, 350)">
-        {tech_pills}
-      </g>
-
-      <!-- Direct Repo Link Button -->
-      <g transform="translate(35, 435)">
-        <rect x="0" y="0" width="290" height="38" rx="8" fill="{ '#000000' if p['id'] == 'microplastics' else p['theme_color'] }" opacity="{ '0.45' if p['id'] == 'microplastics' else '0.2' }" stroke="{border_color}" stroke-width="1.2" />
-        <text x="145" y="24" font-size="12" font-weight="800" text-anchor="middle" fill="{text_secondary}" class="mono">VIEW ON GITHUB ↗</text>
-      </g>
-
-      <!-- Shimmer sweep -->
-      <rect x="10" y="10" width="340" height="500" rx="18" fill="url(#sheen-{p['id']})" class="sheen-layer" pointer-events="none" />
-    </a>
-  </g>
-</svg>"""
-    return svg
-
 def main():
     out_dir = Path("assets")
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # 1. Master Fanned 3D Deck Showcases (Dark & Light)
+    # Master Fanned 3D Deck Showcases (Dark & Light)
     deck_dark = make_showcase_svg(is_dark=True)
     deck_light = make_showcase_svg(is_dark=False)
 
@@ -655,16 +530,6 @@ def main():
         target.write_text(content, encoding="utf-8")
         ET.fromstring(content)
         print(f"Validated and wrote {target}")
-
-    # 2. Individual Animated Interactive Cards for each project
-    for p in PROJECTS:
-        card_dark = make_individual_card_svg(p, is_dark=True)
-        card_light = make_individual_card_svg(p, is_dark=False)
-        for theme, c in [("dark", card_dark), ("light", card_light)]:
-            target = out_dir / f"card-featured-{p['id']}-{theme}.svg"
-            target.write_text(c, encoding="utf-8")
-            ET.fromstring(c)
-            print(f"Validated and wrote {target}")
 
 if __name__ == "__main__":
     main()

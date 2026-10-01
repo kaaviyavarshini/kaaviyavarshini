@@ -141,41 +141,6 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
   <img src="assets/featured-deck-dark.svg" width="100%" alt="Featured Projects 3D Animated Deck">
 </picture>
 
-<br><br>
-
-<!-- LIVE & ANIMATED INTERACTIVE PROJECT CARDS WITH REPO LINKS -->
-<table>
-  <tr>
-    <td width="33.3%" align="center">
-      <a href="https://github.com/kaaviyavarshini/sih-inthack">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-featured-sih-inthack-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-featured-sih-inthack-light.svg">
-          <img src="assets/card-featured-sih-inthack-dark.svg" width="100%" alt="SIH InThack">
-        </picture>
-      </a>
-    </td>
-    <td width="33.3%" align="center">
-      <a href="https://github.com/kaaviyavarshini/Microplastics-Detection-in-Water-System">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-featured-microplastics-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-featured-microplastics-light.svg">
-          <img src="assets/card-featured-microplastics-dark.svg" width="100%" alt="Microplastic Detection">
-        </picture>
-      </a>
-    </td>
-    <td width="33.3%" align="center">
-      <a href="https://github.com/kaaviyavarshini/microgrid_simulation">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-featured-microgrid-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-featured-microgrid-light.svg">
-          <img src="assets/card-featured-microgrid-dark.svg" width="100%" alt="MicroGrid Simulation">
-        </picture>
-      </a>
-    </td>
-  </tr>
-</table>
-
 </div>
 
 ---
