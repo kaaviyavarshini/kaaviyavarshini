@@ -32,8 +32,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install Pillow numpy scipy
 
-      - name: Regenerate animated banner
-        run: python scripts/banner/generate.py
+      # Banner regeneration disabled — portrait symbol removed intentionally.
+      # - name: Regenerate animated banner
+      #   run: python scripts/banner/generate.py
 
       - name: Skill radar
         run: python scripts/radar.py --data assets/skills.json -o assets/radar
