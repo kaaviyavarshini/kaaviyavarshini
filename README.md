@@ -106,6 +106,65 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 
 <div align="center">
 
+## 🚀 featured projects
+
+</div>
+
+<!-- ─────────────────────────── SIH InThack ─────────────────────────── -->
+### 🏆 SIH InThack — Smart India Hackathon Platform
+
+<img src="assets/project-sih-inthack.jpg" width="100%" alt="SIH InThack Dashboard Preview">
+
+> **National Hackathon Management & Innovation Intelligence Platform** — Built for Smart India Hackathon '25, InThack is a full-stack platform that streamlines problem statement categorization, team formation, submission tracking, and AI-powered judging across domains like FinTech, Healthcare, Sustainability, IoT, and Cybersecurity. Recognized nationally as a top-tier hackathon solution.
+
+**Tech Stack:**
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
+![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=aa9bef)
+![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=aa9bef)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=aa9bef)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=aa9bef)
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef)
+![Gemini](https://img.shields.io/badge/Gemini_AI-0d1117?style=flat-square&logo=google&logoColor=aa9bef)
+
+---
+
+<!-- ───────────────────── Microplastic Detection ─────────────────────── -->
+### 🔬 Microplastic Detection in Water Systems
+
+<img src="assets/project-microplastics.jpg" width="100%" alt="Microplastic Detection Dashboard Preview">
+
+> **Real-Time CV & Deep Learning Pipeline for Water Safety** — A computer vision system that detects and classifies microplastic particles (Plastic, Fiber, Polymer) in water samples with **97.4% confidence** using a custom-trained CNN. Features live microscope feed analysis, particle size distribution profiling, Water Quality Index (WQI) monitoring, and automated environmental reporting — enabling proactive water contamination response.
+
+**Tech Stack:**
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0d1117?style=flat-square&logo=tensorflow&logoColor=aa9bef)
+![OpenCV](https://img.shields.io/badge/OpenCV-0d1117?style=flat-square&logo=opencv&logoColor=aa9bef)
+![Keras](https://img.shields.io/badge/Keras-0d1117?style=flat-square&logo=keras&logoColor=aa9bef)
+![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=flat-square&logo=numpy&logoColor=aa9bef)
+![Flask](https://img.shields.io/badge/Flask-0d1117?style=flat-square&logo=flask&logoColor=aa9bef)
+![Streamlit](https://img.shields.io/badge/Streamlit-0d1117?style=flat-square&logo=streamlit&logoColor=aa9bef)
+
+---
+
+<!-- ───────────────────── MicroGrid Simulation ───────────────────────── -->
+### ⚡ MicroGrid Simulation — Hospital Energy Orchestration
+
+<img src="assets/project-microgrid.jpg" width="100%" alt="MicroGrid Simulation Dashboard Preview">
+
+> **Autonomous Zero-Blackout Energy Engine for Critical Infrastructure** — A deterministic microgrid controller that orchestrates Solar PV, Battery Storage (BESS), Backup Generators, and Utility Grid for hospital environments. Uses **PuLP linear programming** to solve real-time energy dispatch, guaranteeing 100% reliability across critical loads (Emergency, HVAC, Medical Equipment). Features a full simulation dashboard with topology visualization, power flow analysis, and energy balance reporting.
+
+**Tech Stack:**
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
+![PuLP](https://img.shields.io/badge/PuLP_LP-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
+![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=flat-square&logo=numpy&logoColor=aa9bef)
+![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=flat-square&logo=pandas&logoColor=aa9bef)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0d1117?style=flat-square&logo=python&logoColor=aa9bef)
+![Streamlit](https://img.shields.io/badge/Streamlit-0d1117?style=flat-square&logo=streamlit&logoColor=aa9bef)
+
+---
+
+<div align="center">
+
 <sub>` Built with precision & passion · @kaaviyavarshini `</sub>
 
 </div>
