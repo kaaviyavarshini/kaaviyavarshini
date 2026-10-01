@@ -49,82 +49,128 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 
 ## my perfect stack
 
-**Languages**
+<br>
 
-<img src="https://skillicons.dev/icons?i=py,c,java,js,ts,html,css,mysql&perline=8" alt="Languages">
+### Languages
+<p align="center">
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Python.svg" width="42" height="42" alt="Python" title="Python" /></a>&nbsp;&nbsp;
+  <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/TypeScript.svg" width="42" height="42" alt="TypeScript" title="TypeScript" /></a>&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/JavaScript.svg" width="42" height="42" alt="JavaScript" title="JavaScript" /></a>&nbsp;&nbsp;
+  <a href="https://en.cppreference.com/w/cpp" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg" width="42" height="42" alt="C++" title="C++" /></a>&nbsp;&nbsp;
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/C.svg" width="42" height="42" alt="C" title="C" /></a>&nbsp;&nbsp;
+  <a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Java.svg" width="42" height="42" alt="Java" title="Java" /></a>&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/HTML5.svg" width="42" height="42" alt="HTML5" title="HTML5" /></a>&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/CSS3.svg" width="42" height="42" alt="CSS3" title="CSS3" /></a>&nbsp;&nbsp;
+  <a href="https://www.gnu.org/software/bash" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Bash.svg" width="42" height="42" alt="Bash" title="Bash" /></a>
+</p>
 
-**Frontend & Mobile**
+### AI · ML · Algorithms
+<p align="center">
+  <a href="https://pytorch.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/PyTorch.svg" width="42" height="42" alt="PyTorch" title="PyTorch" /></a>&nbsp;&nbsp;
+  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/TensorFlow.svg" width="42" height="42" alt="TensorFlow" title="TensorFlow" /></a>&nbsp;&nbsp;
+  <a href="https://scikit-learn.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/scikit-learn.svg" width="42" height="42" alt="scikit-learn" title="scikit-learn" /></a>&nbsp;&nbsp;
+  <a href="https://opencv.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/OpenCV.svg" width="42" height="42" alt="OpenCV" title="OpenCV" /></a>&nbsp;&nbsp;
+  <a href="https://numpy.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/NumPy.svg" width="42" height="42" alt="NumPy" title="NumPy" /></a>&nbsp;&nbsp;
+  <a href="https://pandas.pydata.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Pandas.svg" width="42" height="42" alt="Pandas" title="Pandas" /></a>&nbsp;&nbsp;
+  <a href="https://jupyter.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Jupyter.svg" width="42" height="42" alt="Jupyter" title="Jupyter" /></a>&nbsp;&nbsp;
+  <a href="https://www.anaconda.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Anaconda.svg" width="42" height="42" alt="Anaconda" title="Anaconda" /></a>
+</p>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,astro,bootstrap,figma&perline=8" alt="Frontend and Mobile">
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=aa9bef" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Hugging_Face-0d1117?style=flat-square&logo=huggingface&logoColor=aa9bef" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/ONNX_Runtime-0d1117?style=flat-square&logoColor=aa9bef" alt="ONNX" />
+  <img src="https://img.shields.io/badge/RAG_Pipelines-0d1117?style=flat-square&logoColor=aa9bef" alt="RAG" />
+  <img src="https://img.shields.io/badge/Sentence_Transformers-0d1117?style=flat-square&logoColor=aa9bef" alt="Sentence Transformers" />
+  <img src="https://img.shields.io/badge/Kalman_Filter_Fusion-0d1117?style=flat-square&logoColor=aa9bef" alt="Kalman Filter" />
+  <img src="https://img.shields.io/badge/PuLP-0d1117?style=flat-square&logoColor=aa9bef" alt="PuLP" />
+</p>
 
-![React Native](https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=aa9bef)
-![Expo](https://img.shields.io/badge/Expo-0d1117?style=flat-square&logo=expo&logoColor=aa9bef)
-![Leaflet](https://img.shields.io/badge/Leaflet-0d1117?style=flat-square&logo=leaflet&logoColor=aa9bef)
+### Backend & APIs
+<p align="center">
+  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/FastAPI.svg" width="42" height="42" alt="FastAPI" title="FastAPI" /></a>&nbsp;&nbsp;
+  <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/png-shadow-512/Flask.png" width="42" height="42" alt="Flask" title="Flask" /></a>&nbsp;&nbsp;
+  <a href="https://streamlit.io" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Streamlit.svg" width="42" height="42" alt="Streamlit" title="Streamlit" /></a>&nbsp;&nbsp;
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Node.js.svg" width="42" height="42" alt="Node.js" title="Node.js" /></a>&nbsp;&nbsp;
+  <a href="https://www.sqlalchemy.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/SQLAlchemy.svg" width="42" height="42" alt="SQLAlchemy" title="SQLAlchemy" /></a>&nbsp;&nbsp;
+  <a href="https://graphql.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/GraphQL.svg" width="42" height="42" alt="GraphQL" title="GraphQL" /></a>&nbsp;&nbsp;
+  <a href="https://swagger.io/specification" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/OpenAPI.svg" width="42" height="42" alt="OpenAPI" title="OpenAPI" /></a>
+</p>
 
-**Backend & APIs**
+<p align="center">
+  <img src="https://img.shields.io/badge/Pydantic_v2-0d1117?style=flat-square&logoColor=aa9bef" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/Uvicorn-0d1117?style=flat-square&logoColor=aa9bef" alt="Uvicorn" />
+  <img src="https://img.shields.io/badge/Chainlit-0d1117?style=flat-square&logoColor=aa9bef" alt="Chainlit" />
+  <img src="https://img.shields.io/badge/Server--Sent_Events-0d1117?style=flat-square&logo=html5&logoColor=aa9bef" alt="SSE" />
+  <img src="https://img.shields.io/badge/YouTube_Data_API-0d1117?style=flat-square&logo=youtube&logoColor=aa9bef" alt="YouTube API" />
+  <img src="https://img.shields.io/badge/Instagram_API-0d1117?style=flat-square&logo=instagram&logoColor=aa9bef" alt="Instagram API" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=fastapi,flask&perline=8" alt="Backend">
+### Frontend & Mobile
+<p align="center">
+  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/React.svg" width="42" height="42" alt="React" title="React" /></a>&nbsp;&nbsp;
+  <a href="https://nextjs.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png" width="42" height="42" alt="Next.js" title="Next.js" /></a>&nbsp;&nbsp;
+  <a href="https://astro.build" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Astro.svg" width="42" height="42" alt="Astro" title="Astro" /></a>&nbsp;&nbsp;
+  <a href="https://tailwindcss.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg" width="42" height="42" alt="Tailwind CSS" title="Tailwind CSS" /></a>&nbsp;&nbsp;
+  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Bootstrap.svg" width="42" height="42" alt="Bootstrap" title="Bootstrap" /></a>&nbsp;&nbsp;
+  <a href="https://redux.js.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Redux.svg" width="42" height="42" alt="Redux" title="Redux" /></a>&nbsp;&nbsp;
+  <a href="https://vitejs.dev" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Vite.js.svg" width="42" height="42" alt="Vite" title="Vite" /></a>&nbsp;&nbsp;
+  <a href="https://www.figma.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Figma.svg" width="42" height="42" alt="Figma" title="Figma" /></a>
+</p>
 
-![Streamlit](https://img.shields.io/badge/Streamlit-0d1117?style=flat-square&logo=streamlit&logoColor=aa9bef)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-0d1117?style=flat-square&logoColor=aa9bef)
-![Chainlit](https://img.shields.io/badge/Chainlit-0d1117?style=flat-square&logoColor=aa9bef)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0d1117?style=flat-square&logoColor=aa9bef)
-![Pydantic](https://img.shields.io/badge/Pydantic_v2-0d1117?style=flat-square&logoColor=aa9bef)
-![SSE](https://img.shields.io/badge/Server--Sent_Events-0d1117?style=flat-square&logo=html5&logoColor=aa9bef)
-![YouTube API](https://img.shields.io/badge/YouTube_Data_API-0d1117?style=flat-square&logo=youtube&logoColor=aa9bef)
-![Instagram API](https://img.shields.io/badge/Instagram_API-0d1117?style=flat-square&logo=instagram&logoColor=aa9bef)
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=aa9bef" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-0d1117?style=flat-square&logo=expo&logoColor=aa9bef" alt="Expo" />
+  <img src="https://img.shields.io/badge/Leaflet-0d1117?style=flat-square&logo=leaflet&logoColor=aa9bef" alt="Leaflet" />
+</p>
 
-**AI · ML · Algorithms**
+### Databases & Storage
+<p align="center">
+  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/PostgresSQL.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" /></a>&nbsp;&nbsp;
+  <a href="https://www.mysql.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/MySQL.svg" width="42" height="42" alt="MySQL" title="MySQL" /></a>&nbsp;&nbsp;
+  <a href="https://www.sqlite.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/SQLite.svg" width="42" height="42" alt="SQLite" title="SQLite" /></a>&nbsp;&nbsp;
+  <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Redis.svg" width="42" height="42" alt="Redis" title="Redis" /></a>&nbsp;&nbsp;
+  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/MongoDB.svg" width="42" height="42" alt="MongoDB" title="MongoDB" /></a>
+</p>
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&perline=8" alt="AI and ML">
+<p align="center">
+  <img src="https://img.shields.io/badge/Pinecone-0d1117?style=flat-square&logoColor=aa9bef" alt="Pinecone" />
+  <img src="https://img.shields.io/badge/MaxMind_GeoLite2-0d1117?style=flat-square&logoColor=aa9bef" alt="MaxMind GeoLite2" />
+  <img src="https://img.shields.io/badge/GTFS_Route_Data-0d1117?style=flat-square&logoColor=aa9bef" alt="GTFS" />
+</p>
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=aa9bef)
-![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=flat-square&logo=numpy&logoColor=aa9bef)
-![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=flat-square&logo=pandas&logoColor=aa9bef)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-0d1117?style=flat-square&logo=huggingface&logoColor=aa9bef)
-![ONNX](https://img.shields.io/badge/ONNX_Runtime-0d1117?style=flat-square&logoColor=aa9bef)
-![PuLP](https://img.shields.io/badge/PuLP-0d1117?style=flat-square&logoColor=aa9bef)
-![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-0d1117?style=flat-square&logoColor=aa9bef)
-![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=aa9bef)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-0d1117?style=flat-square&logoColor=aa9bef)
-![Kalman Filter](https://img.shields.io/badge/Kalman_Filter_Fusion-0d1117?style=flat-square&logoColor=aa9bef)
+### Cloud & DevOps
+<p align="center">
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="42" height="42" alt="Docker" title="Docker" /></a>&nbsp;&nbsp;
+  <a href="https://kubernetes.io" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Kubernetes.svg" width="42" height="42" alt="Kubernetes" title="Kubernetes" /></a>&nbsp;&nbsp;
+  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/AWS.svg" width="42" height="42" alt="AWS" title="AWS" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/GitHub-Actions.svg" width="42" height="42" alt="GitHub Actions" title="GitHub Actions" /></a>&nbsp;&nbsp;
+  <a href="https://nginx.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/NGINX.svg" width="42" height="42" alt="NGINX" title="NGINX" /></a>&nbsp;&nbsp;
+  <a href="https://www.kernel.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Linux.svg" width="42" height="42" alt="Linux" title="Linux" /></a>
+</p>
 
-**Data**
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS_Bedrock-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef" alt="AWS Bedrock" />
+  <img src="https://img.shields.io/badge/Docker_Compose-0d1117?style=flat-square&logo=docker&logoColor=aa9bef" alt="Docker Compose" />
+  <img src="https://img.shields.io/badge/CloudFront-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef" alt="CloudFront" />
+  <img src="https://img.shields.io/badge/AWS_IAM-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef" alt="AWS IAM" />
+  <img src="https://img.shields.io/badge/MQTT_(Paho)-0d1117?style=flat-square&logo=mqtt&logoColor=aa9bef" alt="MQTT" />
+  <img src="https://img.shields.io/badge/Eclipse_Mosquitto-0d1117?style=flat-square&logo=eclipsemosquitto&logoColor=aa9bef" alt="Mosquitto" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=mysql,sqlite,postgres,redis&perline=8" alt="Data">
+### Tools & Ecosystem
+<p align="center">
+  <a href="https://git-scm.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Git.svg" width="42" height="42" alt="Git" title="Git" /></a>&nbsp;&nbsp;
+  <a href="https://github.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png" width="42" height="42" alt="GitHub" title="GitHub" /></a>&nbsp;&nbsp;
+  <a href="https://code.visualstudio.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg" width="42" height="42" alt="VS Code" title="VS Code" /></a>&nbsp;&nbsp;
+  <a href="https://www.postman.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Postman.svg" width="42" height="42" alt="Postman" title="Postman" /></a>
+</p>
 
-![Pinecone](https://img.shields.io/badge/Pinecone-0d1117?style=flat-square&logoColor=aa9bef)
-![MaxMind GeoLite2](https://img.shields.io/badge/MaxMind_GeoLite2-0d1117?style=flat-square&logoColor=aa9bef)
-![GTFS](https://img.shields.io/badge/GTFS_Route_Data-0d1117?style=flat-square&logoColor=aa9bef)
-
-**Messaging & Real-Time**
-
-![MQTT](https://img.shields.io/badge/MQTT_(Paho)-0d1117?style=flat-square&logo=mqtt&logoColor=aa9bef)
-![Eclipse Mosquitto](https://img.shields.io/badge/Eclipse_Mosquitto-0d1117?style=flat-square&logo=eclipsemosquitto&logoColor=aa9bef)
-![httpx](https://img.shields.io/badge/httpx-0d1117?style=flat-square&logoColor=aa9bef)
-
-**Cloud & DevOps**
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,aws,githubactions&perline=8" alt="Cloud and DevOps">
-
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-0d1117?style=flat-square&logo=docker&logoColor=aa9bef)
-![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef)
-![CloudFront](https://img.shields.io/badge/CloudFront-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef)
-![IAM](https://img.shields.io/badge/AWS_IAM-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef)
-
-**Voice & Media**
-
-![gTTS](https://img.shields.io/badge/gTTS-0d1117?style=flat-square&logo=google&logoColor=aa9bef)
-![pydub](https://img.shields.io/badge/pydub-0d1117?style=flat-square&logoColor=aa9bef)
-
-**Tools & Practices**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman&perline=8" alt="Tools">
-
-![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=flat-square&logo=jupyter&logoColor=aa9bef)
-![Conventional Commits](https://img.shields.io/badge/Conventional_Commits-0d1117?style=flat-square&logo=conventionalcommits&logoColor=aa9bef)
-![Mermaid](https://img.shields.io/badge/Mermaid_Diagrams-0d1117?style=flat-square&logo=mermaid&logoColor=aa9bef)
-![PostHog](https://img.shields.io/badge/PostHog-0d1117?style=flat-square&logo=posthog&logoColor=aa9bef)
+<p align="center">
+  <img src="https://img.shields.io/badge/Conventional_Commits-0d1117?style=flat-square&logo=conventionalcommits&logoColor=aa9bef" alt="Conventional Commits" />
+  <img src="https://img.shields.io/badge/Mermaid_Diagrams-0d1117?style=flat-square&logo=mermaid&logoColor=aa9bef" alt="Mermaid" />
+  <img src="https://img.shields.io/badge/PostHog-0d1117?style=flat-square&logo=posthog&logoColor=aa9bef" alt="PostHog" />
+</p>
 
 </div>
 
