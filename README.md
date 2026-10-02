@@ -64,28 +64,6 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
   <a href="https://www.gnu.org/software/bash" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Bash.svg" width="42" height="42" alt="Bash" title="Bash" /></a>
 </p>
 
-### AI · ML · Algorithms
-<p align="center">
-  <a href="https://pytorch.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/PyTorch.svg" width="42" height="42" alt="PyTorch" title="PyTorch" /></a>&nbsp;&nbsp;
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/TensorFlow.svg" width="42" height="42" alt="TensorFlow" title="TensorFlow" /></a>&nbsp;&nbsp;
-  <a href="https://scikit-learn.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/scikit-learn.svg" width="42" height="42" alt="scikit-learn" title="scikit-learn" /></a>&nbsp;&nbsp;
-  <a href="https://opencv.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/OpenCV.svg" width="42" height="42" alt="OpenCV" title="OpenCV" /></a>&nbsp;&nbsp;
-  <a href="https://numpy.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/NumPy.svg" width="42" height="42" alt="NumPy" title="NumPy" /></a>&nbsp;&nbsp;
-  <a href="https://pandas.pydata.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Pandas.svg" width="42" height="42" alt="Pandas" title="Pandas" /></a>&nbsp;&nbsp;
-  <a href="https://jupyter.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Jupyter.svg" width="42" height="42" alt="Jupyter" title="Jupyter" /></a>&nbsp;&nbsp;
-  <a href="https://www.anaconda.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Anaconda.svg" width="42" height="42" alt="Anaconda" title="Anaconda" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=aa9bef" alt="LangChain" />
-  <img src="https://img.shields.io/badge/Hugging_Face-0d1117?style=flat-square&logo=huggingface&logoColor=aa9bef" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/ONNX_Runtime-0d1117?style=flat-square&logoColor=aa9bef" alt="ONNX Runtime" />
-  <img src="https://img.shields.io/badge/RAG_Pipelines-0d1117?style=flat-square&logoColor=aa9bef" alt="RAG Pipelines" />
-  <img src="https://img.shields.io/badge/Sentence_Transformers-0d1117?style=flat-square&logoColor=aa9bef" alt="Sentence Transformers" />
-  <img src="https://img.shields.io/badge/Kalman_Filter_Fusion-0d1117?style=flat-square&logoColor=aa9bef" alt="Kalman Filter" />
-  <img src="https://img.shields.io/badge/PuLP-0d1117?style=flat-square&logoColor=aa9bef" alt="PuLP" />
-</p>
-
 ### Frontend & Ecosystem Tools
 <p align="center">
   <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/React.svg" width="42" height="42" alt="React" title="React" /></a>&nbsp;&nbsp;
@@ -102,14 +80,7 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
   <a href="https://www.postman.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Postman.svg" width="42" height="42" alt="Postman" title="Postman" /></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=aa9bef" alt="React Native" />
-  <img src="https://img.shields.io/badge/Expo-0d1117?style=flat-square&logo=expo&logoColor=aa9bef" alt="Expo" />
-  <img src="https://img.shields.io/badge/Leaflet-0d1117?style=flat-square&logo=leaflet&logoColor=aa9bef" alt="Leaflet" />
-  <img src="https://img.shields.io/badge/Conventional_Commits-0d1117?style=flat-square&logo=conventionalcommits&logoColor=aa9bef" alt="Conventional Commits" />
-  <img src="https://img.shields.io/badge/Mermaid_Diagrams-0d1117?style=flat-square&logo=mermaid&logoColor=aa9bef" alt="Mermaid" />
-  <img src="https://img.shields.io/badge/PostHog-0d1117?style=flat-square&logo=posthog&logoColor=aa9bef" alt="PostHog" />
-</p>
+
 
 ### Backend, Cloud & Databases
 <p align="center">
@@ -131,21 +102,7 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
   <a href="https://www.kernel.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Linux.svg" width="42" height="42" alt="Linux" title="Linux" /></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Pydantic_v2-0d1117?style=flat-square&logoColor=aa9bef" alt="Pydantic" />
-  <img src="https://img.shields.io/badge/Uvicorn-0d1117?style=flat-square&logoColor=aa9bef" alt="Uvicorn" />
-  <img src="https://img.shields.io/badge/Chainlit-0d1117?style=flat-square&logoColor=aa9bef" alt="Chainlit" />
-  <img src="https://img.shields.io/badge/Server--Sent_Events-0d1117?style=flat-square&logo=html5&logoColor=aa9bef" alt="SSE" />
-  <img src="https://img.shields.io/badge/Pinecone-0d1117?style=flat-square&logoColor=aa9bef" alt="Pinecone" />
-  <img src="https://img.shields.io/badge/MaxMind_GeoLite2-0d1117?style=flat-square&logoColor=aa9bef" alt="MaxMind GeoLite2" />
-  <img src="https://img.shields.io/badge/GTFS_Route_Data-0d1117?style=flat-square&logoColor=aa9bef" alt="GTFS" />
-  <img src="https://img.shields.io/badge/AWS_Bedrock-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef" alt="AWS Bedrock" />
-  <img src="https://img.shields.io/badge/Docker_Compose-0d1117?style=flat-square&logo=docker&logoColor=aa9bef" alt="Docker Compose" />
-  <img src="https://img.shields.io/badge/CloudFront-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef" alt="CloudFront" />
-  <img src="https://img.shields.io/badge/AWS_IAM-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef" alt="AWS IAM" />
-  <img src="https://img.shields.io/badge/MQTT_(Paho)-0d1117?style=flat-square&logo=mqtt&logoColor=aa9bef" alt="MQTT" />
-  <img src="https://img.shields.io/badge/Eclipse_Mosquitto-0d1117?style=flat-square&logo=eclipsemosquitto&logoColor=aa9bef" alt="Mosquitto" />
-</p>
+
 
 </div>
 
