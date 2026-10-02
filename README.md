@@ -79,34 +79,14 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 <p align="center">
   <img src="https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=aa9bef" alt="LangChain" />
   <img src="https://img.shields.io/badge/Hugging_Face-0d1117?style=flat-square&logo=huggingface&logoColor=aa9bef" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/ONNX_Runtime-0d1117?style=flat-square&logoColor=aa9bef" alt="ONNX" />
-  <img src="https://img.shields.io/badge/RAG_Pipelines-0d1117?style=flat-square&logoColor=aa9bef" alt="RAG" />
+  <img src="https://img.shields.io/badge/ONNX_Runtime-0d1117?style=flat-square&logoColor=aa9bef" alt="ONNX Runtime" />
+  <img src="https://img.shields.io/badge/RAG_Pipelines-0d1117?style=flat-square&logoColor=aa9bef" alt="RAG Pipelines" />
   <img src="https://img.shields.io/badge/Sentence_Transformers-0d1117?style=flat-square&logoColor=aa9bef" alt="Sentence Transformers" />
   <img src="https://img.shields.io/badge/Kalman_Filter_Fusion-0d1117?style=flat-square&logoColor=aa9bef" alt="Kalman Filter" />
   <img src="https://img.shields.io/badge/PuLP-0d1117?style=flat-square&logoColor=aa9bef" alt="PuLP" />
 </p>
 
-### Backend & APIs
-<p align="center">
-  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/FastAPI.svg" width="42" height="42" alt="FastAPI" title="FastAPI" /></a>&nbsp;&nbsp;
-  <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/png-shadow-512/Flask.png" width="42" height="42" alt="Flask" title="Flask" /></a>&nbsp;&nbsp;
-  <a href="https://streamlit.io" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Streamlit.svg" width="42" height="42" alt="Streamlit" title="Streamlit" /></a>&nbsp;&nbsp;
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Node.js.svg" width="42" height="42" alt="Node.js" title="Node.js" /></a>&nbsp;&nbsp;
-  <a href="https://www.sqlalchemy.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/SQLAlchemy.svg" width="42" height="42" alt="SQLAlchemy" title="SQLAlchemy" /></a>&nbsp;&nbsp;
-  <a href="https://graphql.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/GraphQL.svg" width="42" height="42" alt="GraphQL" title="GraphQL" /></a>&nbsp;&nbsp;
-  <a href="https://swagger.io/specification" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/OpenAPI.svg" width="42" height="42" alt="OpenAPI" title="OpenAPI" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Pydantic_v2-0d1117?style=flat-square&logoColor=aa9bef" alt="Pydantic" />
-  <img src="https://img.shields.io/badge/Uvicorn-0d1117?style=flat-square&logoColor=aa9bef" alt="Uvicorn" />
-  <img src="https://img.shields.io/badge/Chainlit-0d1117?style=flat-square&logoColor=aa9bef" alt="Chainlit" />
-  <img src="https://img.shields.io/badge/Server--Sent_Events-0d1117?style=flat-square&logo=html5&logoColor=aa9bef" alt="SSE" />
-  <img src="https://img.shields.io/badge/YouTube_Data_API-0d1117?style=flat-square&logo=youtube&logoColor=aa9bef" alt="YouTube API" />
-  <img src="https://img.shields.io/badge/Instagram_API-0d1117?style=flat-square&logo=instagram&logoColor=aa9bef" alt="Instagram API" />
-</p>
-
-### Frontend & Mobile
+### Frontend & Ecosystem Tools
 <p align="center">
   <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/React.svg" width="42" height="42" alt="React" title="React" /></a>&nbsp;&nbsp;
   <a href="https://nextjs.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png" width="42" height="42" alt="Next.js" title="Next.js" /></a>&nbsp;&nbsp;
@@ -115,32 +95,34 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
   <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Bootstrap.svg" width="42" height="42" alt="Bootstrap" title="Bootstrap" /></a>&nbsp;&nbsp;
   <a href="https://redux.js.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Redux.svg" width="42" height="42" alt="Redux" title="Redux" /></a>&nbsp;&nbsp;
   <a href="https://vitejs.dev" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Vite.js.svg" width="42" height="42" alt="Vite" title="Vite" /></a>&nbsp;&nbsp;
-  <a href="https://www.figma.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Figma.svg" width="42" height="42" alt="Figma" title="Figma" /></a>
+  <a href="https://www.figma.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Figma.svg" width="42" height="42" alt="Figma" title="Figma" /></a>&nbsp;&nbsp;
+  <a href="https://git-scm.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Git.svg" width="42" height="42" alt="Git" title="Git" /></a>&nbsp;&nbsp;
+  <a href="https://github.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png" width="42" height="42" alt="GitHub" title="GitHub" /></a>&nbsp;&nbsp;
+  <a href="https://code.visualstudio.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg" width="42" height="42" alt="VS Code" title="VS Code" /></a>&nbsp;&nbsp;
+  <a href="https://www.postman.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Postman.svg" width="42" height="42" alt="Postman" title="Postman" /></a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=aa9bef" alt="React Native" />
   <img src="https://img.shields.io/badge/Expo-0d1117?style=flat-square&logo=expo&logoColor=aa9bef" alt="Expo" />
   <img src="https://img.shields.io/badge/Leaflet-0d1117?style=flat-square&logo=leaflet&logoColor=aa9bef" alt="Leaflet" />
+  <img src="https://img.shields.io/badge/Conventional_Commits-0d1117?style=flat-square&logo=conventionalcommits&logoColor=aa9bef" alt="Conventional Commits" />
+  <img src="https://img.shields.io/badge/Mermaid_Diagrams-0d1117?style=flat-square&logo=mermaid&logoColor=aa9bef" alt="Mermaid" />
+  <img src="https://img.shields.io/badge/PostHog-0d1117?style=flat-square&logo=posthog&logoColor=aa9bef" alt="PostHog" />
 </p>
 
-### Databases & Storage
+### Backend, Cloud & Databases
 <p align="center">
+  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/FastAPI.svg" width="42" height="42" alt="FastAPI" title="FastAPI" /></a>&nbsp;&nbsp;
+  <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/png-shadow-512/Flask.png" width="42" height="42" alt="Flask" title="Flask" /></a>&nbsp;&nbsp;
+  <a href="https://streamlit.io" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Streamlit.svg" width="42" height="42" alt="Streamlit" title="Streamlit" /></a>&nbsp;&nbsp;
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Node.js.svg" width="42" height="42" alt="Node.js" title="Node.js" /></a>&nbsp;&nbsp;
+  <a href="https://www.sqlalchemy.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/SQLAlchemy.svg" width="42" height="42" alt="SQLAlchemy" title="SQLAlchemy" /></a>&nbsp;&nbsp;
   <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/PostgresSQL.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" /></a>&nbsp;&nbsp;
   <a href="https://www.mysql.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/MySQL.svg" width="42" height="42" alt="MySQL" title="MySQL" /></a>&nbsp;&nbsp;
   <a href="https://www.sqlite.org" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/SQLite.svg" width="42" height="42" alt="SQLite" title="SQLite" /></a>&nbsp;&nbsp;
   <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Redis.svg" width="42" height="42" alt="Redis" title="Redis" /></a>&nbsp;&nbsp;
-  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/MongoDB.svg" width="42" height="42" alt="MongoDB" title="MongoDB" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Pinecone-0d1117?style=flat-square&logoColor=aa9bef" alt="Pinecone" />
-  <img src="https://img.shields.io/badge/MaxMind_GeoLite2-0d1117?style=flat-square&logoColor=aa9bef" alt="MaxMind GeoLite2" />
-  <img src="https://img.shields.io/badge/GTFS_Route_Data-0d1117?style=flat-square&logoColor=aa9bef" alt="GTFS" />
-</p>
-
-### Cloud & DevOps
-<p align="center">
+  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/MongoDB.svg" width="42" height="42" alt="MongoDB" title="MongoDB" /></a>&nbsp;&nbsp;
   <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Docker.svg" width="42" height="42" alt="Docker" title="Docker" /></a>&nbsp;&nbsp;
   <a href="https://kubernetes.io" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Kubernetes.svg" width="42" height="42" alt="Kubernetes" title="Kubernetes" /></a>&nbsp;&nbsp;
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/AWS.svg" width="42" height="42" alt="AWS" title="AWS" /></a>&nbsp;&nbsp;
@@ -150,6 +132,13 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Pydantic_v2-0d1117?style=flat-square&logoColor=aa9bef" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/Uvicorn-0d1117?style=flat-square&logoColor=aa9bef" alt="Uvicorn" />
+  <img src="https://img.shields.io/badge/Chainlit-0d1117?style=flat-square&logoColor=aa9bef" alt="Chainlit" />
+  <img src="https://img.shields.io/badge/Server--Sent_Events-0d1117?style=flat-square&logo=html5&logoColor=aa9bef" alt="SSE" />
+  <img src="https://img.shields.io/badge/Pinecone-0d1117?style=flat-square&logoColor=aa9bef" alt="Pinecone" />
+  <img src="https://img.shields.io/badge/MaxMind_GeoLite2-0d1117?style=flat-square&logoColor=aa9bef" alt="MaxMind GeoLite2" />
+  <img src="https://img.shields.io/badge/GTFS_Route_Data-0d1117?style=flat-square&logoColor=aa9bef" alt="GTFS" />
   <img src="https://img.shields.io/badge/AWS_Bedrock-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef" alt="AWS Bedrock" />
   <img src="https://img.shields.io/badge/Docker_Compose-0d1117?style=flat-square&logo=docker&logoColor=aa9bef" alt="Docker Compose" />
   <img src="https://img.shields.io/badge/CloudFront-0d1117?style=flat-square&logo=amazonaws&logoColor=aa9bef" alt="CloudFront" />
@@ -158,24 +147,9 @@ I architect multi-agent systems, intelligent RAG pipelines, and self-hosted AI s
   <img src="https://img.shields.io/badge/Eclipse_Mosquitto-0d1117?style=flat-square&logo=eclipsemosquitto&logoColor=aa9bef" alt="Mosquitto" />
 </p>
 
-### Tools & Ecosystem
-<p align="center">
-  <a href="https://git-scm.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Git.svg" width="42" height="42" alt="Git" title="Git" /></a>&nbsp;&nbsp;
-  <a href="https://github.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png" width="42" height="42" alt="GitHub" title="GitHub" /></a>&nbsp;&nbsp;
-  <a href="https://code.visualstudio.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg" width="42" height="42" alt="VS Code" title="VS Code" /></a>&nbsp;&nbsp;
-  <a href="https://www.postman.com" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/Postman.svg" width="42" height="42" alt="Postman" title="Postman" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Conventional_Commits-0d1117?style=flat-square&logo=conventionalcommits&logoColor=aa9bef" alt="Conventional Commits" />
-  <img src="https://img.shields.io/badge/Mermaid_Diagrams-0d1117?style=flat-square&logo=mermaid&logoColor=aa9bef" alt="Mermaid" />
-  <img src="https://img.shields.io/badge/PostHog-0d1117?style=flat-square&logo=posthog&logoColor=aa9bef" alt="PostHog" />
-</p>
-
 </div>
 
 ---
-
 <div align="center">
 
 ## 🚀 featured projects
